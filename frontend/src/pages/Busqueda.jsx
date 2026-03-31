@@ -5,7 +5,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
 const MODOS = [
   { key: 'nombre',  label: 'Por nombre',  placeholder: 'Ej: Flores, Macaya, Yasna...' },

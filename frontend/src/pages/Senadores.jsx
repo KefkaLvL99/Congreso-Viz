@@ -5,7 +5,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
 // Convierte "Camila Flores Oporto" → "Flores O., Camila"
 // para buscar en el endpoint de parlamentarios
