@@ -14,4 +14,4 @@ apscheduler      # tareas programadas en background (actualización automática)
 beautifulsoup4
 python-dateutil
 anthropic
-python-dotenv
+python-dotenvpsycopg2-binary
