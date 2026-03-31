@@ -1,0 +1,17 @@
+# ============================================================
+# Librerías necesarias para el backend congreso-viz
+# ============================================================
+# Para instalar todo de una vez:
+#   pip install -r requirements.txt
+# ============================================================
+
+fastapi          # el framework web, define rutas y respuestas
+uvicorn          # el servidor que corre FastAPI (como el motor)
+requests         # para consultar las APIs del Congreso
+lxml             # parser XML tolerante (ya lo conoces de fase 1)
+sqlalchemy       # manejo de base de datos sin escribir SQL directo
+apscheduler      # tareas programadas en background (actualización automática)
+beautifulsoup4
+python-dateutil
+anthropic
+python-dotenv

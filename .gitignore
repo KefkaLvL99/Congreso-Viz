@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+senado/
+SENADO/
+*.db
+historico_senado.progress
+
+# Node
+node_modules/
+dist/
+
+# Sistema
+.DS_Store
